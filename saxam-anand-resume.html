@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saxam Anand - Resume</title>
+    <style>
+        /* Resume Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .header h2 {
+            font-size: 1.5rem;
+            color: #3498db;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-item i {
+            margin-right: 8px;
+            color: #3498db;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        .section-content {
+            padding-left: 20px;
+        }
+        
+        .item {
+            margin-bottom: 20px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #3498db;
+        }
+        
+        .item-subtitle {
+            font-style: italic;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        
+        .item-date {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        
+        .item-description {
+            margin-bottom: 10px;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+        }
+        
+        .skill-item {
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        
+        .project {
+            margin-bottom: 25px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+        
+        .project-tech {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .project-link {
+            display: block;
+            margin-top: 5px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>Saxam Anand</h1>
+            <h2>Computer Science Engineer</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i>📧</i>
+                    <span>saxamanand171001@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i>🔗</i>
+                    <span>github.com/saxamanand</span>
+                </div>
+                <div class="contact-item">
+                    <i>🔗</i>
+                    <span>linkedin.com/in/saxam-anand-4aaa961b7</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <div class="section-content">
+                <p>B.Tech graduate in Computer Science & Engineering with a keen interest in software development, problem-solving, and modern technologies like AI, web development, cloud computing, and cybersecurity. Currently exploring opportunities to apply and expand my skills in real-world projects and collaborative environments.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="section-content">
+                <div class="item">
+                    <div class="item-title">B.Tech in Computer Science & Engineering</div>
+                    <div class="item-subtitle">Bengal Institute of Technology</div>
+                    <div class="item-date">2022 - 2025</div>
+                    <div class="item-description">CGPA: 7.01</div>
+                </div>
+                <div class="item">
+                    <div class="item-title">High School Diploma, Mechanical Engineering</div>
+                    <div class="item-subtitle">Exalt College of Polytechnic</div>
+                    <div class="item-date">2016 - 2020</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-content">
+                <ul class="skills-list">
+                    <li class="skill-item">Java</li>
+                    <li class="skill-item">Web Development</li>
+                    <li class="skill-item">HTML</li>
+                    <li class="skill-item">CSS</li>
+                    <li class="skill-item">JavaScript</li>
+                    <li class="skill-item">Machine Learning</li>
+                    <li class="skill-item">Cloud Computing</li>
+                    <li class="skill-item">Cybersecurity</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-content">
+                <div class="project">
+                    <div class="project-title">Image Watermarking Tool</div>
+                    <div class="project-tech">Java, Swing, AWT</div>
+                    <div class="project-description">
+                        <p>Developed an Image Watermarking Tool written in Java, using Swing for the graphical user interface (GUI) and AWT (Abstract Window Toolkit) for image processing capabilities.</p>
+                    </div>
+                    <a href="https://github.com/saxamanand/WatermarkProject" class="project-link" target="_blank">github.com/saxamanand/WatermarkProject</a>
+                </div>
+                
+                <div class="project">
+                    <div class="project-title">Phishing URL Detector</div>
+                    <div class="project-tech">Streamlit, scikit-learn, pandas, NumPy, matplotlib, seaborn</div>
+                    <div class="project-description">
+                        <p>Created a machine learning-powered web application that detects phishing URLs by analyzing their structural and linguistic features. Built with Streamlit, scikit-learn, and comprehensive feature extraction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">Interests</h2>
+            <div class="section-content">
+                <p>Artificial Intelligence, Web Development, Cloud Computing, Cybersecurity, Problem Solving, Software Development</p>
+            </div>
+        </div>
+        
+        <div class="no-print" style="text-align: center; margin-top: 30px;">
+            <button onclick="window.print()" style="padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">Print Resume</button>
+        </div>
+    </div>
+</body>
+</html>
